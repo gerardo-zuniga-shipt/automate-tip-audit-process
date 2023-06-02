@@ -1,0 +1,46 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Terraform
+.terraform
+
+# Emacs
+*~
+
+# generated helper code
+/.gitops-qa
+/.generator/*.jar
+/.docs
+/.openapi-generator
+
+# build output
+/server
+/out
+/gen
+/performance
+
+# Mac File Storage
+*.DS_Store
+/localhost.env
+/.env

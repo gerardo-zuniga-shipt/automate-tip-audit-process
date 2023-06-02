@@ -1,0 +1,55 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    akami (1.2.2)
+      gyoku (>= 0.4.0)
+      nokogiri
+    builder (3.2.4)
+    concurrent-ruby (1.2.2)
+    crack (0.1.8)
+    et-orbi (1.2.7)
+      tzinfo
+    fugit (1.8.1)
+      et-orbi (~> 1, >= 1.2.7)
+      raabro (~> 1.4)
+    gyoku (0.4.6)
+      builder (>= 2.1.2)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    httpi (1.1.1)
+      rack
+    nokogiri (1.15.2-arm64-darwin)
+      racc (~> 1.4)
+    nori (1.1.5)
+    raabro (1.4.0)
+    racc (1.6.2)
+    rack (3.0.7)
+    rufus-scheduler (3.9.0)
+      fugit (~> 1.1, >= 1.1.6)
+    savon (1.2.0)
+      akami (~> 1.2.0)
+      builder (>= 2.1.2)
+      gyoku (~> 0.4.5)
+      httpi (~> 1.1.0)
+      nokogiri (>= 1.4.0)
+      nori (~> 1.1.0)
+      wasabi (~> 2.5.0)
+    snowflake (0.0.1)
+      akami (~> 1.2.0)
+      httparty (~> 0.6.1)
+      savon (~> 1.2.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    wasabi (2.5.1)
+      httpi (~> 1.0)
+      nokogiri (>= 1.4.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  rufus-scheduler
+  snowflake
+
+BUNDLED WITH
+   2.4.10
